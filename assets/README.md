@@ -1,11 +1,11 @@
-# tre
+# Title
 
 ## Description
 
-- ert
-- ert
-- er
-- ter
+- Motivation
+- Purpose
+- Solve
+- LEarn
 
 ## Table of Contents
 
@@ -16,17 +16,17 @@
 
 ## Installation
 
-ter
+Install
 
 ## Usage
 
-er
-tert
+Instructions
+screenshot.jpg
 
 
 ## Credits
 
-ter
+Credits
 
 ## License
 

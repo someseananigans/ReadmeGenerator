@@ -392,7 +392,7 @@ ${license}
 
 `
 
-  fs.writeFile('Test.md', mdGen, err => {
+  fs.writeFile('README.md', mdGen, err => {
   if (err) { console.log(err) }
 })
 }

@@ -13,7 +13,6 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 
 ## Installation
@@ -23,7 +22,7 @@
 To generate your own README.md, first run ```npm i``` in order to install the following npm package dependecies as specified in the  ```package.json```:
 - ```inquirer``` : allows for prompted user inputs from the terminal 
 
-The application can be invoked with node index.js
+The application can be invoked with node index.js within the assets directory
 
 ## Usage
 

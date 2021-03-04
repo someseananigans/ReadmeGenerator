@@ -1,13 +1,13 @@
 # Title
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-![license](https://img.shields.io/badge/license-ISC-brightgreen)
+![license](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Description
 
-- what
-- why
-- how
+- Motivation....
+- Purpose.....
+- Soultions.....
 
 ## Table of Contents
 
@@ -18,28 +18,28 @@
 
 ## Installation
 
-*Steps requited to install project and how to get the development environment running*
+*Steps required to install project and how to get the development environment running:*
 
-Installation steps
+Steps for installation.....
 
 ## Usage
 
-ins1
-![alt screenshot](s1)
+Demo Instructions...
+![alt screenshot](assets/images/image.jpg)
 
 ## Credits
 
-credits
+Collaborator 1, collaborator 2, etc....
 
 ## License
 
-Copyright (c) 2020 Full NAme
-This project is [ISC](https://choosealicense.com/licenses/isc/) Licensed.
+Copyright (c) 2021 Full NAme
+This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
 
 ## Questions
 
 Feel free to contact me with any questions via the information below:
 
-GitHub: [@username](https://github.com/username)
+GitHub: [@Username](https://github.com/Username)
 
-Email: [email](email)
+Email: [Email@gmail.com](Email@gmail.com)

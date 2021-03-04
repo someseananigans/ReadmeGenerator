@@ -6,7 +6,6 @@ let license = ''
 let mdGen = ''
 let screenshot = ''
 
-
 const input = () => {
   inquirer.prompt([
     {
@@ -37,27 +36,27 @@ const input = () => {
     {
       type: 'input',
       name: 'motivation',
-      message: `What?: `
+      message: `What? (motivation): `
     },
     {
       type: 'input',
       name: 'purpose',
-      message: 'Why?: '
+      message: 'Why? (purpose): '
     },
     {
       type: 'input',
-      name: 'learn',
-      message: 'How?: '
+      name: 'solution',
+      message: 'How? (solution/learn): '
     },
     {
       type: 'input',
       name: 'installation',
-      message: 'What are the steps required to install your project?: '
+      message: 'What are the steps required to install regarding the project?: '
     },
     {
       type: 'input',
       name: 'credits',
-      message: 'Credits: '
+      message: 'Share the collaborators, 3rd party assets, and tutorial guides (credits): '
     },
     {
       type: 'list',
@@ -153,7 +152,7 @@ const mdForm = (res, usage) => {
 
 - ${res.motivation}
 - ${res.purpose}
-- ${res.learn}
+- ${res.solution}
 
 ## Table of Contents
 
@@ -164,7 +163,7 @@ const mdForm = (res, usage) => {
 
 ## Installation
 
-*Steps required to install project and how to get the development environment running*
+*Steps required to install project and how to get the development environment running:*
 
 ${res.installation}
 
@@ -205,5 +204,5 @@ ${license}
 })
 }
 
-
+console.log("\nA README.md file will be generated based off of your entered inputs. \nFeel free to use md syntax if you wish to format your inputs accordingly\n")
 input()

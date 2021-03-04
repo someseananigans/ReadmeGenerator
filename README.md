@@ -27,8 +27,8 @@ The application can be invoked with node index.js
 
 ## Usage
 
-N/A
-assets/images/
+Instructions/Guide
+File Location
 
 ## License
 

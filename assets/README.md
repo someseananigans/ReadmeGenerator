@@ -1,11 +1,13 @@
 # Title
 
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![license](https://img.shields.io/badge/license-ISC-brightgreen)
+
 ## Description
 
-- Motivation
-- Purpose
-- Solve
-- LEarn
+- what
+- why
+- how
 
 ## Table of Contents
 
@@ -16,37 +18,28 @@
 
 ## Installation
 
-Install
+*Steps requited to install project and how to get the development environment running*
+
+Installation steps
 
 ## Usage
 
-Instructions
-screenshot.jpg
-
+ins1
+![alt screenshot](s1)
 
 ## Credits
 
-Credits
+credits
 
 ## License
 
-ISC License
+Copyright (c) 2020 Full NAme
+This project is [ISC](https://choosealicense.com/licenses/isc/) Licensed.
 
-Copyright (c) [year], [fullname]
+## Questions
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+Feel free to contact me with any questions via the information below:
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+GitHub: [@username](https://github.com/username)
 
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
+Email: [email](email)

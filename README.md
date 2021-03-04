@@ -48,5 +48,6 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ## Badges
 
+![npm](https://img.shields.io/npm/v/inquirer)
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 

@@ -50,4 +50,5 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ![npm](https://img.shields.io/npm/v/inquirer)
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![license]https://img.shields.io/badge/license-test-brightgreen
 

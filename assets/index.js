@@ -205,4 +205,7 @@ ${license}
 }
 
 console.log("\nA README.md file will be generated based off of your entered inputs. \nFeel free to use md syntax if you wish to format your inputs accordingly\n")
+
 input()
+
+console.log("\n README.md file successfully generated. Please review file.")

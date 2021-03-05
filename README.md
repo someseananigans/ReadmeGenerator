@@ -34,6 +34,7 @@ Please refer below as a visual guide:
 ## License
 
 Copyright (c) 2020 Sean Nguyen
+
 This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
 
 ## Questions

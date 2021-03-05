@@ -19,15 +19,17 @@
 
 *Steps required to install project and how to get the development environment running*
 
-To generate your own README.md, first run ```npm i``` in order to install the following npm package dependecies as specified in the  ```package.json```:
+To use the README Generator, first run ```npm i``` in order to install the following npm package dependecies as specified in the  ```package.json```:
 - ```inquirer``` : allows for prompted user inputs from the terminal 
 
 The application can be invoked with node index.js within the assets directory
 
 ## Usage
 
-Instructions/Guide
-File Location
+First enter the assets directory ```cd assets```. Now you can run the program via ```node index.js```. Full in your inputs to the prompt accordingly and the currently existing README.md will be replaced and filled in with your formatted responses. 
+
+Please refer below as a visual guide:
+![alt demo](assets/images/demo.gif)
 
 ## License
 

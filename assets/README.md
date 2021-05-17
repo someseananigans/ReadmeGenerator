@@ -1,45 +1,39 @@
-# Title
+# FreeMarket
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ![license](https://img.shields.io/badge/license-MIT-brightgreen)
 
-## Description
+As fellow hoarders, we understand the difficulty of separating from goods. This web application was built to support hoarders find new owners for their items without having to deal with the struggle of a price tag.
 
-- Motivation....
-- Purpose.....
-- Soultions.....
+## Deployed Link
 
-## Table of Contents
+[FreeMarket](https://mighty-coast-38363.herokuapp.com/)
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+## FreeMarket Users Can...
+- Post a listing of their item with an image, title, and description
+- Live search items by their title or category
+- Click on cards for more information including connecting with listing owners
+- Create and manage their user accounts
 
-## Installation
+## Preview
 
-*Steps required to install project and how to get the development environment running:*
+images
+![alt screenshot](images)
+images
+![alt screenshot](images)
 
-Steps for installation.....
+## Project Members
 
-## Usage
-
-Demo Instructions...
-![alt screenshot](assets/images/image.jpg)
-
-## Credits
-
-Collaborator 1, collaborator 2, etc....
-
-## License
-
-Copyright (c) 2021 Full NAme
-This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
+- [@someseananigans](https://github.com/someseananigans)
+- [@josephmnielson](https://github.com/josephmnielson)
+- [@Ohskie3](https://github.com/Ohskie3)
 
 ## Questions
 
 Feel free to contact me with any questions via the information below:
 
-GitHub: [@Username](https://github.com/Username)
+GitHub: [@someseananigans](https://github.com/someseananigans)
 
-Email: [Email@gmail.com](Email@gmail.com)
+Email: [nsean321@gmail.com](nsean321@gmail.com)
+
+

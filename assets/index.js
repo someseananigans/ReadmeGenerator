@@ -75,44 +75,44 @@ const input = () => {
       message: 'Test Examples: '
     }
   ])
-  .then(res => {
-    console.log(res)
-    license = format(res.licensetype, res)
+    .then(res => {
+      console.log(res)
+      license = format(res.licensetype, res)
 
-    const inputUsage = () => {
-      inquirer.prompt([
-        {
-          type: 'input', 
-          name: 'instructions',
-          message: 'How to use (Demo/Instructions)?: '
-        },
-        {
-          type: 'input', 
-          name: 'screenshot',
-          message: 'Screenshot File Location: '
-        },
-        {
-          type: 'confirm',
-          name: 'choice',
-          message: 'Continue?'
-        }
-      ])
-      .then(data => {
-        screenshot = `![alt screenshot](${data.screenshot})`
-        usage += `${data.instructions}\n${screenshot}\n`
-        if (data.choice) {
-          console.log(usage)
-          inputUsage()
-        }
-        else {
-          mdForm(res, usage, license)
-        }
-      })
-      .catch(err => console.log(err))
-    }
-    inputUsage()
-  })
-  .catch(err => console.log(err))
+      const inputUsage = () => {
+        inquirer.prompt([
+          {
+            type: 'input',
+            name: 'instructions',
+            message: 'How to use (Demo/Instructions)?: '
+          },
+          {
+            type: 'input',
+            name: 'screenshot',
+            message: 'Screenshot File Location: '
+          },
+          {
+            type: 'confirm',
+            name: 'choice',
+            message: 'Continue?'
+          }
+        ])
+          .then(data => {
+            screenshot = `![alt screenshot](${data.screenshot})`
+            usage += `${data.instructions}\n${screenshot}\n`
+            if (data.choice) {
+              console.log(usage)
+              inputUsage()
+            }
+            else {
+              mdForm(res, usage, license)
+            }
+          })
+          .catch(err => console.log(err))
+      }
+      inputUsage()
+    })
+    .catch(err => console.log(err))
 }
 
 
@@ -145,7 +145,8 @@ const format = (licensetype, res) => {
 const mdForm = (res, usage) => {
   mdGen = `# ${res.title}
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![${res.title}](https://img.shields.io/github/languages/top/${res.username}/${res.title})
+![${res.title}](https://img.shields.io/github/languages/cpunt/${res.username}/${res.title})
 ![license](https://img.shields.io/badge/license-${res.licensetype}-brightgreen)
 
 ## Description
@@ -200,8 +201,8 @@ ${license}
   mdQuestions = `## Questions\n\nFeel free to contact me with any questions via the information below:\n\nGitHub: [@${res.username}](https://github.com/${res.username})\n\nEmail: [${res.email}](${res.email})`
 
   fs.appendFile('README.md', mdQuestions, err => {
-  if (err) { console.log(err) }
-})
+    if (err) { console.log(err) }
+  })
 }
 
 console.log("\nA README.md file will be generated based off of your entered inputs. \nFeel free to use md syntax if you wish to format your inputs accordingly\n")

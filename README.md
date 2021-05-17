@@ -26,7 +26,7 @@ The application can be invoked with node index.js within the assets directory
 
 ## Usage
 
-First enter the assets directory ```cd assets```. Now you can run the program via ```node index.js```. Full in your inputs to the prompt accordingly and the currently existing README.md will be replaced and filled in with your formatted responses. 
+First enter the assets directory ```cd assets```. Now you can run the program via ```node index.js```. Input your responses to the prompt accordingly. Then, the current existing README.md will be replaced and filled in with your formatted prompt responses. 
 
 Please refer below as a visual guide:
 ![alt demo](assets/images/demo.gif)
@@ -34,6 +34,7 @@ Please refer below as a visual guide:
 ## License
 
 Copyright (c) 2020 Sean Nguyen
+
 This project is [MIT](https://choosealicense.com/licenses/mit/) Licensed.
 
 ## Questions
